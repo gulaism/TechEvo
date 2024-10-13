@@ -7,7 +7,7 @@ import SearchBar from "../../../components/Search/SearchBar";
 import { useState } from "react";
 import { products, queries } from "../../../products";
 import ProductCard from "../../../components/common/ProductCard/ProductCard";
-import FilterSidebar from "../../../components/FilteredProducts/FilterSideBar";
+import FilterSidebar from "../../../components/FilteredProducts/FilterSidebar";
 
 const CategoryPage = () => {
 //* PcPage idi adi dinamik olmalidi deye CategoryPage qoydum adini
