@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 // Import Swiper styles
@@ -25,7 +25,7 @@ const Section = ({ title }) => {
                     spaceBetween={30}
                     slidesPerView={3}
                     autoplay={{
-                        delay: 5000,
+                        delay: 4000,
                         disableOnInteraction: false,
                     }}
                     loop={true}
